@@ -1,0 +1,4 @@
+language: csharp
+solution: ./src/destine/destine.sln
+notifications:
+  email: false
