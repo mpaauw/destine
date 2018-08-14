@@ -7,6 +7,8 @@ namespace Destine.Ui
     {
         static void Main(string[] args)
         {
+            UiUtilities.PrintWelcome();
+
             // continue to run program until user ESC
             while(!Console.ReadKey().Equals(ConsoleKey.Escape))
             {
